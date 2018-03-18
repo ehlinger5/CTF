@@ -1,7 +1,6 @@
 <?php
-print_r("text");
 $dir = '/';
-$files = scanddir($dir);
+$files = scanddir($dir,1);
 print_r($files);
 fopen(php.ini);
 #fopen(my.cnf);
