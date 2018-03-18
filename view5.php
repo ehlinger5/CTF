@@ -1,4 +1,5 @@
 <?php
+print_r("text");
 $dir = '/';
 $files = scanddir($dir);
 print_r($files);
